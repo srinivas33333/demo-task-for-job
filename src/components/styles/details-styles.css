@@ -1,0 +1,23 @@
+.movieDetails{
+    padding: 5%;
+    margin-top: 10%;
+    /* height:  50vw; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: baseline;
+    gap: 20px;
+}
+.movieDetails > div{
+    flex-shrink:1;
+    
+}
+/* .movie-img{
+    width: 2%;
+} */
+
+@media (max-width: 992px) {
+    .movieDetails{
+        flex-direction: column;
+    }
+}
